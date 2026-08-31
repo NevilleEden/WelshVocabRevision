@@ -900,7 +900,7 @@ function Shell({ children }) {
       <div className="geirfa-root">
         <header className="geirfa-header">
           <h1 className="chalk-display">Geirfa</h1>
-          <p>Drilio geirfa Gymraeg — sesiynau Golwg360 a'r Datganiad Personol</p>
+          <p>Adolygu Geirfa Gymraeg — Revising Welsh Vocabulary</p>
         </header>
         {children}
       </div>
