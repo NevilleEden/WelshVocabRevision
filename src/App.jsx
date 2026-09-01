@@ -201,6 +201,22 @@ const WORDS = [
   { cy: "[adj.] o beth", en: "a [adjective] thing/matter", type: "pattern", note: "e.g. ffantastig o beth, \"a fantastic thing\"" },
 ];
 
+// Formats the injected build timestamp (see vite.config.js) into a short,
+// readable string for the version marker in the footer.
+function formatBuildTime(iso) {
+  try {
+    const d = new Date(iso);
+    return d.toLocaleString("en-GB", {
+      day: "numeric",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  } catch (e) {
+    return iso;
+  }
+}
+
 const norm = (s) =>
   (s || "")
     .toLowerCase()
@@ -709,6 +725,9 @@ export default function App() {
       <p className="footer-text mono xxs muted">
         {items.length} gair yn y gronfa · {sessionSeen} wedi'u gweld y sesiwn yma
       </p>
+      <p className="footer-text mono xxs muted version-marker">
+        Adeiladwyd {formatBuildTime(__BUILD_TIME__)} · {__COMMIT_SHA__}
+      </p>
     </Shell>
   );
 }
@@ -903,6 +922,7 @@ function Shell({ children }) {
         .next-btn:hover { filter: brightness(0.95); }
 
         .footer-text { margin-top: 30px; text-align: center; }
+        .version-marker { margin-top: 6px; opacity: 0.55; }
 
         .loading-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 96px 0; }
         .spin { animation: spin 1s linear infinite; }
