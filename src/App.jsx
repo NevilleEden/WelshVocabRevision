@@ -199,6 +199,20 @@ const WORDS = [
   { cy: "sobor", en: "abysmal, awful, incredibly", type: "adj/intensifier" },
   { cy: "andros", en: "good heavens, incredibly", type: "exclamation/intensifier" },
   { cy: "[adj.] o beth", en: "a [adjective] thing/matter", type: "pattern", note: "e.g. ffantastig o beth, \"a fantastic thing\"" },
+
+  // Golwg360 — Tafarndai Cymunedol (additions)
+  { cy: "liwt", en: "a lute (instrument); ar liwt ei hun = freelance", type: "noun", g: "f", note: "pl. liwtiau" },
+  { cy: "deuddydd", en: "two days", type: "noun", g: "m" },
+  { cy: "ymhen", en: "after (a period); within", type: "prep" },
+
+  // Uwch 2 — Uned 15
+  { cy: "cyfansoddi", en: "to compose", type: "verb" },
+  { cy: "Archdderwydd", en: "Archdruid", type: "noun", g: "m", note: "pl. Archdderwyddon" },
+  { cy: "uniaethu (â)", en: "to identify with", type: "verb" },
+  { cy: "detholiad", en: "a selection, an extract", type: "noun", g: "m", note: "pl. detholiadau" },
+  { cy: "gwreiddyn", en: "a root", type: "noun", g: "m", note: "pl. gwreiddiau" },
+  { cy: "rhywfodd", en: "somehow", type: "adv" },
+  { cy: "taeru", en: "to insist, to swear blind", type: "verb" },
 ];
 
 // Formats the injected build timestamp (see vite.config.js) into a short,
