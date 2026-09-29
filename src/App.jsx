@@ -315,6 +315,14 @@ const WORDS = [
   { cy: "gor-", en: "over-/excessive- (prefix)", type: "pattern", note: "verified cognate with English over-" },
   { cy: "holl-", en: "all-/entirely- (prefix)", type: "pattern" },
   { cy: "di-", en: "un-/without- (negating prefix)", type: "pattern" },
+
+  // Cymdeithas Wyddonol Gwynedd — society introduction
+  { cy: "di-dor", en: "uninterrupted, without a break", type: "adj", note: "yn ddi-dor = continuously" },
+  { cy: "diddanu", en: "to entertain", type: "verb" },
+  { cy: "cyflwyniad", en: "a presentation, a talk (also: an introduction)", type: "noun", g: "m", note: "pl. cyflwyniadau" },
+  { cy: "yn bennaf", en: "mainly, chiefly", type: "adv" },
+  { cy: "ers sawl blwyddyn", en: "for several years", type: "idiom", note: "ers + present tense = English 'have been'" },
+  { cy: "ymweliad", en: "a visit", type: "noun", g: "m", note: "pl. ymweliadau" },
 ];
 
 // Formats the injected build timestamp (see vite.config.js) into a short,
