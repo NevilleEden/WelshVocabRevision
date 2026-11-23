@@ -361,6 +361,14 @@ const WORDS = [
   { cy: "ar y cyd", en: "jointly, together, collectively", type: "idiom", note: "datganiad ar y cyd = a joint statement" },
   { cy: "moesol", en: "moral, ethical", type: "adj", note: "yn foesol = morally (soft mut. after yn)" },
   { cy: "beirniadol", en: "critical", type: "adj", note: "yn feirniadol (soft mut. after yn); beirniad = a critic" },
+
+  // Golwg — "Glyndŵr ydy bob dim wedi mynd!" (Nov 2026)
+  { cy: "cyforiog", en: "teeming, brimming, overflowing", type: "adj", note: "cyforiog o = teeming with; mae Golwg yn gyforiog o Glyndŵr" },
+  { cy: "hir ddisgwyliedig", en: "long-awaited", type: "adj", note: "hir + disgwyliedig (expected); drama fawr hir ddisgwyliedig = a big, long-awaited play" },
+  { cy: "boi", en: "guy, bloke, chap", type: "noun", g: "m", note: "pl. bois; informal, a grown man — not a young boy (bachgen/hogyn)" },
+
+  // Lingo Newydd Hydref 2026
+  { cy: "myned", en: "to go (older, literary form of mynd)", type: "verb", note: "found in the Bible, hymns and proverbs; say mynd. Cf. dyfod → dod" },
 ];
 
 // Formats the injected build timestamp (see vite.config.js) into a short,
